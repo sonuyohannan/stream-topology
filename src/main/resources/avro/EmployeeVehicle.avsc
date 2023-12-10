@@ -1,0 +1,27 @@
+{
+  "namespace": "com.kafka.producerapp",
+  "type": "record",
+  "name": "EmployeeVehicleDetails",
+  "fields": [
+    {
+      "name": "employeeId",
+      "type":  [ "int", "null" ]
+    },
+    {
+      "name": "vehicle_number",
+      "type":  [ "int", "null" ]
+    },
+    {
+      "name": "vehicle_name",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "insurance_detail",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "manafacturing_year",
+      "type":  [ "int", "null" ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "namespace": "com.kafka.producerapp",
+  "type": "record",
+  "name": "EmployeePersonalDetails",
+  "fields": [
+    {
+      "name": "employeeId",
+      "type":  [ "int", "null" ]
+    },
+    {
+      "name": "firstname",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "lastname",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "age",
+      "type":  [ "int", "null" ]
+    },
+    {
+      "name": "sex",
+      "type":  [ "string", "null" ]
+    }
+  ]
+}

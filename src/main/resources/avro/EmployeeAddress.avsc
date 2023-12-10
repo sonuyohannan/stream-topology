@@ -1,0 +1,39 @@
+{
+  "namespace": "com.kafka.producerapp",
+  "type": "record",
+  "name": "EmployeeAdressDetails",
+  "fields": [
+    {
+      "name": "employeeId",
+      "type":  [ "int", "null" ]
+    },
+    {
+      "name": "housename",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "streetname",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "city",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "postcode",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "country",
+      "type":  [ "string", "null" ]
+    },
+    {
+      "name": "state",
+      "type":  [ "string", "null" ]
+
+    },
+    { "name" : "district" ,
+      "type":  [ "string", "null" ]
+    }
+  ]
+}

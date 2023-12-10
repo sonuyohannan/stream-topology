@@ -1,0 +1,23 @@
+{
+  "namespace": "com.kafka.producerapp",
+  "type": "record",
+  "name": "EmployeeDetails",
+  "fields" : [
+    { "name" : "employeeId" , "type" : "int" },
+    { "name" : "housename" , "type" : "string" },
+    { "name" : "streetname" , "type" : "string" },
+    { "name" : "city" , "type" : "string" },
+    { "name" : "postcode" , "type" : "string" },
+    { "name" : "district" , "type" : "string" },
+    { "name" : "state" , "type" : "string" },
+    { "name" : "country" , "type" : "string" },
+    { "name" : "firstname" , "type" : "string" },
+    { "name" : "lastname" , "type" : "string" },
+    { "name" : "age" , "type" : "int" },
+    { "name" : "sex" , "type" : "string" },
+    { "name" : "vehicle_number" , "type" : "int" },
+    { "name" : "vehicle_name" , "type" : "string" },
+    { "name" : "insurance_detail" , "type" : "string" },
+    { "name" : "manafacturing_year" , "type" : "int" }
+  ]
+}
