@@ -4,7 +4,7 @@ import com.kafka.producerapp.EmployeeAdressDetails;
 import com.kafka.producerapp.EmployeeDetails;
 import com.kafka.producerapp.EmployeePersonalDetails;
 
-public class StreamsJoin {
+public class EmployeeDetailsFactory {
     public static EmployeeDetails setEmployeeDetails(EmployeePersonalDetails employeePersonaldetail, EmployeeAdressDetails employeeAddressDetail){
         EmployeeDetails employeeDetal= new EmployeeDetails();
         if(employeePersonaldetail!=null){

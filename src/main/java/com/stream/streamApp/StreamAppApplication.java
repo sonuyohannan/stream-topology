@@ -28,7 +28,6 @@ public class StreamAppApplication {
 		props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
 		props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, SpecificAvroSerde.class);
 
-
 		SpringApplication.run(StreamAppApplication.class, args);
 
 	}
